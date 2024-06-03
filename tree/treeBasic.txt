@@ -1,0 +1,24 @@
+What is a Tree Data Structure?
+In computer science, a tree is a widely used hierarchical data structure that consists of nodes connected by edges. Each node contains a value (or data) and may have a number of child nodes. The topmost node in a tree is called the root node, and each node (except the root node) is connected by a directed edge from exactly one other node, forming branches.
+
+Uses of Tree Data Structure:
+Trees are used in various applications and are fundamental in computer science due to their versatility. Some common uses include:
+
+Hierarchical Data Storage: Trees are used to represent hierarchical data, such as file systems, organization charts, XML/HTML documents, etc.
+
+Binary Search Trees (BST): Binary trees are extensively used in implementing searching and sorting algorithms efficiently, like in binary search trees.
+
+Expression Parsing: Trees are used in parsing expressions like arithmetic expressions to evaluate or process them.
+
+Routing Algorithms: In computer networks, trees are used in routing algorithms to determine the optimal path from one node to another.
+
+Decision Making: Trees are used in decision-making processes like decision trees in machine learning and game trees in artificial intelligence.
+
+Tree Traversal:
+Traversal refers to visiting and processing all the nodes in a tree in a specific order. There are mainly three types of tree traversal:
+
+Pre-order Traversal: In pre-order traversal, we visit the root node first, then recursively traverse the left subtree, and finally the right subtree.
+
+In-order Traversal: In in-order traversal, we recursively traverse the left subtree, visit the root node, and then recursively traverse the right subtree. In binary search trees, in-order traversal gives nodes in sorted order.
+
+Post-order Traversal: In post-order traversal, we recursively traverse the left subtree, then the right subtree, and finally visit the root node.

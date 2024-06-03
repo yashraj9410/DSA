@@ -1,0 +1,29 @@
+       1
+      / \
+     2   3
+    / \
+   4   5
+
+
+Preorder Traversal:
+
+Visit the current node.
+Recursively traverse the left subtree.
+Recursively traverse the right subtree.
+In the example tree, the preorder traversal would be: [1, 2, 4, 5, 3].
+
+
+Inorder Traversal:
+
+Recursively traverse the left subtree.
+Visit the current node.
+Recursively traverse the right subtree.
+In the example tree, the inorder traversal would be: [4, 2, 5, 1, 3].
+
+
+Postorder Traversal:
+
+Recursively traverse the left subtree.
+Recursively traverse the right subtree.
+Visit the current node.
+In the example tree, the postorder traversal would be: [4, 5, 2, 3, 1].
